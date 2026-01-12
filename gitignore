@@ -1,0 +1,74 @@
+
+# ===== Node.js / Vite monorepo =====
+# Ignore dependency trees across all subprojects
+**/node_modules/
+
+# Build outputs (Vite default is `dist`)
+**/dist/
+**/build/
+
+# Vite cache & temp folders
+# Vite may use .vite (SSR/optimizer) and caches under node_modules/.vite
+**/.vite/
+**/.cache/
+**/temp/
+
+# Test coverage
+**/coverage/
+
+# Logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+
+# Env files (if you DO NOT want to commit them)
+# Prefer keeping example env files like .env.example committed
+*.env
+*.env.*
+!.env.example
+!.env.local.example
+
+# TypeScript build artifacts (if any)
+**/*.tsbuildinfo
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Optional: If using Vitest/Jest snapshots temp
+**/__snapshots__/
+
+# Optional: If using Cypress/Playwright outputs
+**/.nyc_output/
+**/.pytest_cache/
+**/.playwright-report/
+**/cypress/videos/
+**/cypress/screenshots/
+
+# Yarn/Pnpm local state (not lockfiles)
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnpm-store/
+
+# Turborepo/Nx caches (if using in monorepo)
+.turbo/
+**/.turbo/
+**/.nx/cache/
+
+# Docker local artifacts
+**/.dockerignore
+**/docker-compose.override.yml
+
+# ===== Notes =====
+# Commit your lockfiles (package-lock.json / yarn.lock / pnpm-lock.yaml) for reproducible installs.
+# Keep .env.example checked in and document required variables.
