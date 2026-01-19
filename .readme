@@ -11,3 +11,6 @@
 * 3.6 Controladores
 * 3.7 Desactivar Prettier
   En esta sección, se desinstalo prettier del proyecto para evitar el marcado constante de errores en tiempo real.
+
+  Sección 03: Obtener un carro por ID:
+  En esta sección se moodifico la parte del controlador para recibir un parametro via get, y en función del parametro secreo un metodo para retornar el valor de un array pasandole el indice.
