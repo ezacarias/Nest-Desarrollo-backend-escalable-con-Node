@@ -2,6 +2,7 @@
 # ===== Node.js / Vite monorepo =====
 # Ignore dependency trees across all subprojects
 **/node_modules/
+node_modules/
 
 # Build outputs (Vite default is `dist`)
 **/dist/
