@@ -14,3 +14,6 @@
 
   Sección 03: Obtener un carro por ID:
   En esta sección se moodifico la parte del controlador para recibir un parametro via get, y en función del parametro secreo un metodo para retornar el valor de un array pasandole el indice.
+
+  Sección 04: Introduccion a la sección.
+  En esta clase se vio la introducción acerca de lo que es un DTO, la forma en la que fluye de entre controladores y servicios todo esto explicado de forma general.
