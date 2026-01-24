@@ -17,3 +17,13 @@
 
   Sección 04: Introduccion a la sección.
   En esta clase se vio la introducción acerca de lo que es un DTO, la forma en la que fluye de entre controladores y servicios todo esto explicado de forma general.
+
+  Sección 04: Temas puntuales.
+  Esta clase es un documento con los temas centrales de la clase.
+    * DTO (Data Transfer Object)
+    * Patch, Post, Delete
+    * Validaciones automáticas
+    * Class Validator
+    * Class Transformer
+    * Seguir el principio DRY (Don't repeat yourself)
+    * Algunos decoradores del Class Validator útiles
